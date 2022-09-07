@@ -43,10 +43,10 @@ export const projectsData = [
 	{
 		id: nanoid(),
 		img: 'pomo-todo.png',
-		title: 'Pomo To-do List',
+		title: 'Pomodoro Tasks',
 		info: 'Combining two productivity apps into one this app allows users to manage their time more efficiently. Users are able to add tasks to a todo-list and plan their work schedule using the classic pomodoro method.',
 		info2: 'Tech Stack: ReactJS with Material-UI for styling',
-		url: 'https://pomo-todo.netlify.app/',
+		url: 'https://pomodoro-tasks.netlify.app/',
 		repo: `${githubURL}/pomodoro-tasks`,
 	},
 	{
