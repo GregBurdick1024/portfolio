@@ -37,8 +37,8 @@ export const projectsData = [
 		title: 'MMA Match App',
 		info: 'I love mixed martial arts and wanted an app that allowed users to compare fighters.  As the title implies this app allows users to add fighters to their favorites where they can check their stats and "match" two fighters against eachother.',
 		info2: 'Tech Stack: MongoDB, NodeJS, ExpressJS, ReactJS with React-Bootstrap for styling and D3 for charts.',
-		url: 'https://mma-match-app.herokuapp.com/',
-		repo: 'https://github.com/flushy85/mma-match-app-backend',
+		url: 'https://mma-match-app.fly.dev',
+		repo: `${githubURL}/mma-match`,
 	},
 	{
 		id: nanoid(),
@@ -51,12 +51,12 @@ export const projectsData = [
 	},
 	{
 		id: nanoid(),
-		img: 'top-flicks.png',
-		title: 'Good Pics (WIP)',
+		img: 'top-flix.png',
+		title: 'Top Flixs',
 		info: 'Inspired by the website Good-Reads, this app allows users to rate their favourite films and create ranked lists of films to share.',
 		info2: 'Tech Stack: MySQL, NodeJS, ExpressJS, ReactJS with Tailwind for styling.',
-		url: '',
-		repo: `${githubURL}/topflicks`,
+		url: 'https://topflix.fly.dev/',
+		repo: `${githubURL}/topflix`,
 	},
 ];
 
