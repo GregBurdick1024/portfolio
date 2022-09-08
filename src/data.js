@@ -38,7 +38,7 @@ export const projectsData = [
 		info: 'I love mixed martial arts and wanted an app that allowed users to compare fighters.  As the title implies this app allows users to add fighters to their favorites where they can check their stats and "match" two fighters against eachother.',
 		info2: 'Tech Stack: MongoDB, NodeJS, ExpressJS, ReactJS with React-Bootstrap for styling and D3 for charts.',
 		url: 'https://mma-match-app.fly.dev',
-		repo: `${githubURL}/mma-match`,
+		repo: `${githubURL}/mma-app`,
 	},
 	{
 		id: nanoid(),
@@ -47,7 +47,7 @@ export const projectsData = [
 		info: 'Combining two productivity apps into one this app allows users to manage their time more efficiently. Users are able to add tasks to a todo-list and plan their work schedule using the classic pomodoro method.',
 		info2: 'Tech Stack: ReactJS with Material-UI for styling',
 		url: 'https://pomodoro-tasks.netlify.app/',
-		repo: `${githubURL}/pomodoro-tasks`,
+		repo: `${githubURL}/pomodorotasks`,
 	},
 	{
 		id: nanoid(),
