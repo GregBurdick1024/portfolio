@@ -14,14 +14,14 @@ export const heroData = {
 	title: 'Hi, you have found the Porfolio of',
 	name: 'Greg Burdick',
 	subtitle: 'Web Developer',
-	cta: 'Learn more',
+	cta: 'Read more',
 };
 
 // ABOUT DATA
 export const aboutData = {
 	img: 'mango.jpg',
 	paragraphOne:
-		'I find myself at my best when I am solving problems and learning new things. From a casual curiosity in programming back in early 2018 I quickly discovered that this was the direction I wished to persue.',
+		'I find I am at my best when I am solving problems and learning new things. From a casual curiosity in programming back in early 2018 I quickly discovered that this was the direction I wished to persue.',
 	paragraphTwo:
 		'At present I am looking for work as a junior developer, I have come a long way and hope that I can continue to develop and grow in this exciting industry.',
 	paragraphThree:
@@ -37,7 +37,7 @@ export const projectsData = [
 		title: 'MMA Match App',
 		info: 'I love mixed martial arts and wanted an app that allowed users to compare fighters.  As the title implies this app allows users to add fighters to their favorites where they can check their stats and "match" two fighters against eachother.',
 		info2: 'Tech Stack: MongoDB, NodeJS, ExpressJS, ReactJS with React-Bootstrap for styling and D3 for charts.',
-		url: 'https://mma-match-app.fly.dev',
+		url: 'https://mma-app.fly.dev',
 		repo: `${githubURL}/mma-app`,
 	},
 	{
@@ -53,7 +53,7 @@ export const projectsData = [
 		id: nanoid(),
 		img: 'top-flix.png',
 		title: 'Top Flixs',
-		info: 'Inspired by the website Good-Reads, this app allows users to rate their favourite films and create ranked lists of films to share.',
+		info: 'Inspired by the website Good-Reads and The Movie Database, this app allows users to rate their favourite films and create ranked lists of films to share.',
 		info2: 'Tech Stack: MySQL, NodeJS, ExpressJS, ReactJS with Tailwind for styling.',
 		url: 'https://topflix.fly.dev/',
 		repo: `${githubURL}/topflix`,
