@@ -33,6 +33,15 @@ export const aboutData = {
 export const projectsData = [
 	{
 		id: nanoid(),
+		img: 'top-flix.png',
+		title: 'Top Flixs',
+		info: 'Inspired by the website Good-Reads and The Movie Database, this app allows users to rate their favourite films and create ranked lists of films to share.',
+		info2: 'Tech Stack: MySQL, NodeJS, ExpressJS, ReactJS with Tailwind for styling.',
+		url: 'https://topflix.fly.dev/',
+		repo: `${githubURL}/topflix`,
+	},
+	{
+		id: nanoid(),
 		img: 'mma-match-app.png',
 		title: 'MMA Match App',
 		info: 'I love mixed martial arts and wanted an app that allowed users to compare fighters.  As the title implies this app allows users to add fighters to their favorites where they can check their stats and "match" two fighters against eachother.',
@@ -48,15 +57,6 @@ export const projectsData = [
 		info2: 'Tech Stack: ReactJS with Material-UI for styling',
 		url: 'https://pomodoro-tasks.netlify.app/',
 		repo: `${githubURL}/pomodorotasks`,
-	},
-	{
-		id: nanoid(),
-		img: 'top-flix.png',
-		title: 'Top Flixs',
-		info: 'Inspired by the website Good-Reads and The Movie Database, this app allows users to rate their favourite films and create ranked lists of films to share.',
-		info2: 'Tech Stack: MySQL, NodeJS, ExpressJS, ReactJS with Tailwind for styling.',
-		url: 'https://topflix.fly.dev/',
-		repo: `${githubURL}/topflix`,
 	},
 ];
 
